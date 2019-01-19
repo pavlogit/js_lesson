@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <button id="radio-btn">Кнопка для выбора</button>
+  <p><input type="radio" value="Сидя" name="rad-1">Сидя</p>
+  <p><input type="radio" value="Стоя" name="rad-1">Стоя</p>
+  <p><input type="radio" value="На крыше" name="rad-1">На крыше</p> -->
+
+  <form>
+    <select name="select" id="select-1">
+      <option value="1">one</option>
+      <option value="2">two</option>
+      <option value="3">three</option>
+    </select>
+
+    <div class="radio-block">
+      <p><input type="radio" value="sit" name="radio-1" selected>Сидя</p>
+      <p><input type="radio" value="up" name="radio-1">Стоя</p>
+      <p><input type="radio" value="on_the_roof" name="radio-1">На крыше</p>
+    </div>
+
+    <div class="checkbox-block">
+      <p><input type="checkbox" value="sit" name="checkbox-1" indeterminate>Сидя</p>
+      <p><input type="checkbox" value="up" name="checkbox-1">Стоя</p>
+      <p><input type="checkbox" value="on_the_roof" name="checkbox-1">На крыше</p>
+    </div>
+
+    <div class="color-block">
+      <p>Выбирете цвет: <input type="color" name="color"></p>
+    </div>
+
+    <div class="date-block">
+      <p>Введите дату: <input type="date" name="date"></p>
+    </div>
+
+    <div class="datetime-block">
+      <p>Введите дату и время: <input type="datetime-local" name="datetime"></p>
+    </div>
+
+    <div class="email-block">
+      <p>Ввудите email: <input type="email" name="email"></p>
+    </div>
+
+    <div class="number-block">
+      <p>Укажите число от 0 до 123: <input type="number" name="number" min="0" max="123" ></p>
+    </div>
+
+    <div class="password-block">
+      <p>Введите пароль: <input type="password" name="password" ></p>
+    </div>
+    
+    <div class="phone-block">
+      <p>Введите номер телефона: <input type="tel" name="phone-number"> </p>
+    </div>
+
+    <div class="range-block">
+      <p>Оцените своё настроение: <input type="range" name="range" value="0" max="100"></p>
+    </div>
+
+    <div class="text-block">
+      <p>Напишите что-нибудь: <input type="text" name="text" value="Пример текста"></p>
+    </div>
+
+    <div class="search-block">
+      <p>Тут видимо можно что-то найти(нет): <input type="search" name="search"></p>
+    </div>
+
+    <input type="reset" value="clear" class="reset">
+
+    <!-- submit - пытается отправить данные из формы на обработку в action(который задается в form), если action не задан, то пытается перезагрузить страницу -->
+    <input type="submit" value="push" id="send-form">
+
+  </form>
+
+  <script src="script/serialize.js"></script>
+  <script src="script/script.js"></script>  
+</body>
+</html>

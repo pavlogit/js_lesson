@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+}
+
+.block {
+  padding: 40px;
+  background: gray;
+  margin: 50px;
+  text-align: center;
+}
+
+.change-img {
+  background: url(img/close.png) center no-repeat;
+  border: 2px solid gray;
+}
+
+.color {
+  display: flex;
+  padding: 40px;
+  background: gray;
+  margin: 50px;
+  text-align: center;
+}
+
+.color:last-child {
+  padding: 5px;
+}
+
+.color-block {
+  padding: 5px;
+  background: red;
+  margin: 1px;
+  border: 2px solid black;
+}
+
+.block1 {
+  background-color: red;
+}

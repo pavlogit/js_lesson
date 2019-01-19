@@ -1,0 +1,14 @@
+body {
+  background: #ffffff;
+}
+.color {
+  padding-bottom: 10px;
+}
+button {
+  outline: none;
+  border: 2px dashed #000000;
+  background: transparent;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,15 @@
+#select-1 {
+  margin-bottom: 20px;
+}
+
+form {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px;
+}
+
+.reset {
+  margin-bottom: 10px;
+}

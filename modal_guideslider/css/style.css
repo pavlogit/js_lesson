@@ -1,0 +1,21 @@
+.btn {
+  cursor: pointer;
+  background: #d1d0d0;
+  color: #6e6e6e;
+  border: 2px dashed #6e6e6e;
+  border-radius: 30%;
+  padding: 10px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.45);
+  outline: none;
+}
+
+.btn:hover {
+  background: #808080;
+  color: #d1d0d0;
+  border: 2px solid #ffffff;
+}
+
+.btn:active {
+  box-shadow: none;
+}
+

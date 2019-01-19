@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- data атрибут можно указывать любой, и сколько угодно, главное чтобы в начале было (data-). Используется для расширений возможности обращения к элементу -->
+  <button class="modal-show" data-modal="#sign-in">Show modal window</button>
+
+  <div class="modal-wrap hide" id="sign-in">
+    <div class="modal">
+      <div class="modal-title">
+        Немного того, чему я научился на курсе
+      </div>
+      <div class="random-form">
+        <input type="text" class="random-input" id="random-num" placeholder="от 0 до 10">
+        <button class="check btn" id="random-check">Угадать</button>
+      </div>
+      <p class="out" id="random-out"></p>
+      <div class="change-css">
+        <input type="range" id="border-change" value="0" max="30">
+        <div id="test"></div>
+      </div>
+      <div class="color">
+        <div class="color-block color1">проведи</div>
+        <div class="color-block color2">по</div>
+        <div class="color-block color3">блокам</div>
+        <div class="color-block color4">мышью</div>
+      </div>
+      <div class="bg-color">
+        <div class="choose-color">
+          Выберите цвет: <input type="color" class="input-color">
+        </div>
+        <button class="magic-btn btn">Изменить фон</button>
+        <button class="real-btn btn">Вернуть как было</button>
+      </div>
+      <button class="modal-close btn">Закрыть</button>
+      <p class="modal-close exit">&#215;</p>
+    </div>
+  </div>
+
+
+
+  <script src="script/modal.js"></script>
+  <script src="script/script.js"></script>
+</body>
+</html>

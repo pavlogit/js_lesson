@@ -1,0 +1,45 @@
+body {
+  background: rgba(240, 230, 140, 0.4)
+}
+.header {
+  position: relative;
+  text-align: center;
+}
+.header h1 {
+  color: #8B4513;
+}
+.header button {
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #8B4513;
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid #228B22;
+  border-radius: 15px;
+}
+.header button:hover {
+  background: #8B4513;
+  color: #fff;
+  border: 2px solid #228B22;
+}
+.block {
+  font-size: 22px;
+  color: #8B4513;
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  background: rgba(240, 230, 140, 0.5);
+  border-bottom: 2px solid #228B22;
+}
+.block img {
+  padding-right: 10px;
+  border: none;
+}
+.descr {
+  font-size: 24px;
+  text-align: center;
+  color: #B8860B;
+}

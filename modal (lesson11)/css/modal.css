@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+.hide {
+  display: none;
+}
+
+.modal-wrap {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.modal {
+  z-index: 111;
+  position: absolute;
+  min-width: 320px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #E7E7E7;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.exit {
+  color: #ffffff;
+  position: absolute;
+  font-size: 25px;
+  top: -45px;
+  left: 430px;
+  cursor: pointer;
+}
+
+.random-form {
+  display: flex;
+  margin-bottom: 10px;
+
+}
+
+.modal-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  color: #808080;
+  margin-bottom: 20px;
+  border-bottom: 2px dashed #6e6e6e;
+}
+
+.random-input {
+  width: 80%;
+  margin-right: 10px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.random-input:hover {
+  border: 1px solid #6e6e6e;
+}
+
+.out {
+  margin: 0;
+  font-size: 12px;
+  color: red;
+}
+
+#test {
+  width: 50px;
+  height: 50px;
+  background: rgb(136, 136, 136);
+  margin: 10px;
+}
+
+.change-css {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#border-change {
+  cursor: pointer;
+}
+
+.input-color {
+  cursor: pointer;
+}
+
+.color {
+  display: flex;
+  width: 100%;
+  background: #d1d0d0;
+  margin-bottom: 20px;
+}
+
+.color-block {
+  border: 2px dashed #6e6e6e;
+  text-align: center;
+  padding: 20px;
+  margin: 5px;
+  width: 25%;
+  background: #ffffff;
+  color: #6e6e6e;
+}
+
+.bg-color {
+  margin-bottom: 20px;
+}
+
+.choose-color {
+  margin-bottom: 10px;
+}
+
+.magic-btn {
+  margin-right: 10px;
+}
+
+.choose-color {
+  color: #6e6e6e;
+  font-weight: bold;
+}

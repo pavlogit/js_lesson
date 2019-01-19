@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.read-rules {
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.read-rules:hover, .read-rules-back:hover {
+  color: #6e6e6e;
+  text-transform: uppercase;
+}
+
+.read-rules-back, .read-rules-back2 {
+  cursor: pointer;
+}
+
+.read-rules-back2 {
+  text-align: right;
+  margin-right: 10px;
+}
