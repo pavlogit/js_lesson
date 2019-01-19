@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Дремучий лес</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>  
+  <!--  формат GET передаёт данные через адресную строку. Используется там, где нужно сохранять состояние страницы.  -->
+  <!-- Например фильтр для товаров в интернет магазине, сделанный чекбоксами, в адресной строке появляются параметры /?fname=..&lname=.. -->
+  <!-- <form action="back.php" method="GET">
+    <p>Name: <input type="text" name="fname"></p>
+    <p>Last Name: <input type="text" name="lname"></p>
+
+    <input type="submit" value="send">
+  </form> -->
+
+
+  <!-- POST подходит для передачи тех данных, которые не должны светиться в адресной строке(логин и пароль, но данные не шифруются!). Можно передовать большое количество данных(можно задать на сервере и для GET и для POST) -->
+  <form action="back.php" method="POST">
+    <p>Name: <input type="text" name="fname"></p>
+    <p>Last Name: <input type="text" name="lname"></p>
+  
+    <input type="submit" value="send">
+  </form>
+  
+  <script src="script/script.js"></script>
+</body>
+</html>
